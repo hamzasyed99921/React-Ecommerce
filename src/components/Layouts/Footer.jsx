@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
             <div className="col-md-3 col-12">
               <p>Call Us</p>
-              <p>+92 3145596875</p>
+              <p>+92 3129954838</p>
             </div>
           </div>
           <div className="mt-4 d-flex align-items-center justify-content-center">
