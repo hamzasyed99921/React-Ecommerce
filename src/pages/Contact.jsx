@@ -21,7 +21,7 @@ const Contact = () => {
             />
           </div>
         </div>
-        <div className="form container d-flex justify-content-center  my-5">
+        <div className="form_sec container d-flex justify-content-center  my-5">
             <form className="d-flex flex-column w-25" action="https://formspree.io/f/xpzeoggb" method="post">
             <input type="text" name="username" placeholder="Username" value={isAuthenticated ? user.name : ""} required/> <br /> 
             <input type="email" name="email" placeholder="Email" value={isAuthenticated ? user.email : ""} required/> <br />

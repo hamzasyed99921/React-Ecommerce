@@ -4,7 +4,7 @@ const MyImages = ({ imgs = [{url: ''}] }) => {
   return (
     <>
       <div className="product_images py-5">
-        <section className="sc-crXcEl gGOClK d-flex justify-content-evenly align-items-center ">
+        <section className="sc-crXcEl gGOClK d-flex justify-content-evenly align-items-center flex-wrap">
           <div className="grid">
             {imgs.map((val,index) => {
                 return(

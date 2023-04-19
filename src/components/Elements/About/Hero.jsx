@@ -17,7 +17,7 @@ const Hero = () => {
               atque temporibus veniam doloribus libero ad error omnis voluptates
               animi! Suscipit sapiente.
             </p>
-           <div className="mt-4">
+           <div className="mt-4 mb-4">
            <Link className="bottom_btn" to="/products">show now</Link>
            </div>
           </div>

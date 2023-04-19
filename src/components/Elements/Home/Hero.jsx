@@ -15,12 +15,12 @@ const Hero = () => {
               atque temporibus veniam doloribus libero ad error omnis voluptates
               animi! Suscipit sapiente.
             </p>
-           <div className="mt-4">
-           <Link className="bottom_btn" to="/products">show now</Link>
+           <div className="mt-4 mb-4">
+           <Link className="bottom_btn " to="/products">show now</Link>
            </div>
           </div>
         </div>
-        <div className="col-md-6 col-12">
+        <div className="col-md-6 col-12 ">
           {/* <div className="back_color">
             
           </div> */}

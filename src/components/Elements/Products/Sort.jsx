@@ -6,8 +6,8 @@ const Sort = () => {
   const { grid_view, setGridView, setListView, filter_products, sorting } = useContext(FilterContext);
   return (
     <>
-      <div className="sort mb-5 d-flex justify-content-between align-items-center">
-        <div>
+      <div className="sort mb-5 d-flex justify-content-between align-items-center flex-wrap">
+        <div className="grid_btn">
           <button
             className={grid_view ? "active grid_btn" : "grid_btn"}
             onClick={setGridView}
@@ -26,7 +26,7 @@ const Sort = () => {
             style={{ margin: "0px" }}
           >{`${filter_products.length} Products Avaliable`}</p>
         </div>
-        <div className="filter_search">
+        <div className="filter_search mt-3">
           <form action="#">
             <label htmlFor="sort"></label>
             <select

@@ -57,7 +57,7 @@ const Header = () => {
                 </Link>
               </li>
               
-              {isAuthenticated ?  <li className="nav-item">
+              {isAuthenticated ?  <li className="nav-item ">
                 <button className='btn nav-link '  onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Log Out</button>
               </li> : <li className="nav-item">
                 <button className='btn nav-link ' onClick={() => loginWithRedirect()}>Log In</button>

@@ -5,7 +5,7 @@ const Grid = () => {
     <div className='grid_sec'>
         <div className="container">
             <div className="row">
-                <div className="col-md-4 col-12">
+                <div className="col-md-4 col-12 mb-2">
                     <div className='left_card'>
                     <div className="image">
                         <img src="../../assets/images/g1.svg" className='img-fluid' alt=""/>
@@ -13,8 +13,8 @@ const Grid = () => {
                     <h4>Super Fast and Free Delivery</h4>
                     </div>
                 </div>
-               <div className="col-md-4 d-flex flex-column justify-content-between">
-               <div className="col-md-4 col-12 card_color">
+               <div className="col-md-4 d-flex flex-column justify-content-between ">
+               <div className="col-md-4 col-12 card_color mb-2">
                     <div className='mid_card'>
                     <div className="image">
                         <img src="../../assets/images/g2.svg" className='img-fluid' alt=""/>
@@ -22,7 +22,7 @@ const Grid = () => {
                     <h4>Non-contact Shipping</h4>
                     </div>
                 </div>
-                <div className="col-md-4 col-12 card_color">
+                <div className="col-md-4 col-12 card_color mb-2">
                     <div className='mid_card'>
                     <div className="image">
                         <img src="../../assets/images/g3.svg" className='img-fluid' alt=""/>

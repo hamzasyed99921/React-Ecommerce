@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="col-md-3 col-12">
               <p>Subscribe to get important updates</p>
               <input type="text" className="p-2"  placeholder="Your Email" />
-             <div className=" mt-3">
+             <div className=" mt-3 mb-3">
              <Link className="footer_btn">Subscribe</Link>
              </div>
             </div>
